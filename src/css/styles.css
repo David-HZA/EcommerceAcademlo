@@ -278,6 +278,15 @@ a {
 
 }
 
+.repository {
+    width: 100%;
+    height: 25px;
+    background-color: #e94959;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 @media (min-width : 700px) {
 
