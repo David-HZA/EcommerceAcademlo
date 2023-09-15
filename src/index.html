@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="/src/css/styles.css">
+    <script src="/src/js/main.js" type="module" defer></script>
+</head>
+<body>
+    <header class="contentNav">
+
+        <nav class="navbar">
+            <div class="oneSection">
+                <a class="oneSection__a" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48.92 56.48" class="nav_logo-icon">
+                        <title>Academlo Logo</title>
+                        <g>
+                        <g>
+                        <path d="M28.58,15.39H25.16L35.78,36H31.49L20.67,15.71,8.23,38.82H18.94l3-5.43h-3.4l-1.47,2.54h-4l2.69-5.09H25.85l4.28,8H40.67ZM17.23,28.21l3.57-6.6,3.57,6.6Z">
+                        </path>
+                        </g>
+                        </g>
+                    </svg>
+                    <span class="store-text">STORE</span>
+                </a>
+            </div>
+            <div class="twoSection">
+                <i class='bx bx-moon' ></i>
+            <i class='bx bx-shopping-bag bx-cart'>
+                <div class="amountProductInCart">
+                </div>
+            </i>
+            <i class='bx bxs-dashboard'></i>
+            </div>
+        </nav>
+
+    </header>
+
+
+        <section class="base">
+            <div class="bg base__left">
+                <div class="conte">
+                    <h3 class="title__conte">New Sweatshirt COLLECTIONS 2024</h3>
+                    <p class="parrafo">
+                        Latest arrival of the new Hanes Midweight Crewneck sweatshirt
+                        imported from the 2022 series, with a modern design.
+                    </p>
+                    <p class="price__conte">$14.00</p>
+                    <a class="btn__more" href="#productos" >Show more</a>
+                </div>
+            </div>
+            <div class="bg base__right">
+                <img class="base__right-img" src="https://res.cloudinary.com/duu1imwxs/image/upload/v1677270450/eCommerce/sweater2_y7yzqs.png" alt="">
+            </div>
+
+        </section>
+
+
+    <main class="container">
+        <section class="products"></section>
+    </main>
+
+    <section class="cart">
+        <i class="bx bx-x"></i>
+        <div class="cart__products"></div>
+        <div class="cart__total">
+            <div class="cart__total__info">
+                <span id="totalItems"></span>
+                <span id="totalMoney"></span>
+            </div>
+
+            <button class="btn__buy">
+                Comprar
+            </button>
+        </div>
+    </section>
+
+    <footer></footer>
+
+</body>
+</html>
